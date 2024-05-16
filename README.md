@@ -32,8 +32,13 @@ Based on the IEEE 754 standard, double precision numbers are stored in 64 bits: 
 <br><br>
 
 # Simulate Waveform
+1. When the ENABLE signal is asserted, the circuit read the data keep 16 cycle. First 8 cycle represent the value of A, the last 8 cycles is the value of B.
 <p align="center">
-  <img src="https://github.com/RexJian/Float_Point_Multiplier/blob/main/Image/Wave/Wave1.png" width="1300" height="200" alt="Architecture">
+  <img src="https://github.com/RexJian/Float_Point_Multiplier/blob/main/Image/Wave/Wave1.png" width="800" height="200" alt="Architecture">
+</p> 
+2. When the ENABLE signal is asserted, the circuit read the data keep 16 cycle. First 8 cycle represent the value of A, the last 8 cycles is the value of B.
+<p align="center">
+  <img src="https://github.com/RexJian/Float_Point_Multiplier/blob/main/Image/Wave/wave2.png" width="800" height="200" alt="Architecture">
 </p> 
 
   
