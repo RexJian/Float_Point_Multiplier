@@ -32,13 +32,17 @@ Based on the IEEE 754 standard, double precision numbers are stored in 64 bits: 
 <br><br>
 
 # Simulate Waveform
-1. When the ENABLE signal is asserted, the circuit read the data keep 16 cycle. First 8 cycle represent the value of A, the last 8 cycles is the value of B.
+1. When the ENABLE signal is asserted, the circuit reads the data for 16 cycles. The first 8 cycles represent the value of A, while the last 8 cycles represent the value of B.
 <p align="center">
-  <img src="https://github.com/RexJian/Float_Point_Multiplier/blob/main/Image/Wave/Wave1.png" width="800" height="200" alt="Architecture">
+  <img src="https://github.com/RexJian/Float_Point_Multiplier/blob/main/Image/Wave/Wave1.png" width="900" height="200" alt="Architecture">
 </p> 
-2. When the ENABLE signal is asserted, the circuit read the data keep 16 cycle. First 8 cycle represent the value of A, the last 8 cycles is the value of B.
+2. After reading the data, it will calculate the result of A multiplied B. The latency is 59 cycles.
 <p align="center">
-  <img src="https://github.com/RexJian/Float_Point_Multiplier/blob/main/Image/Wave/wave2.png" width="800" height="200" alt="Architecture">
+  <img src="https://github.com/RexJian/Float_Point_Multiplier/blob/main/Image/Wave/wave2.png" width="900" height="200" alt="Architecture">
 </p> 
 
+3. After calculating the product of A and B, export the results.
+<p align="center">
+  <img src="https://github.com/RexJian/Float_Point_Multiplier/blob/main/Image/Wave/wave3.png" width="900" height="200" alt="Architecture">
+</p> 
   
