@@ -1,4 +1,4 @@
-# Float_Point_Multiplier
+# Float Point Multiplier
 Design a pipeline multiplier for floating-point numbers and <strong>complete the APR, passing the Calibre DRC/LVS checks. Additionally, ensure there are no timing violations in the post-layout gate-level simulation</strong>. The timing constraint of the circuit is <strong>0.3 ns</strong>, so for the most time-consuming part, which involves multiplying two 53-bit numbers, use the ChipWare component IP. This component divides the multiplication process into several cycles. Finally, I applied power optimization methods to reduce power consumption from<strong> 10.8 mW to 9.17 mW.</strong>
 
 ## Table of Content
