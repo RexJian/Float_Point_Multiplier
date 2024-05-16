@@ -33,7 +33,7 @@ Based on the IEEE 754 standard, double precision numbers are stored in 64 bits: 
 
 # Simulate Waveform
 <p align="center">
-  <img src="https://github.com/RexJian/Float_Point_Multiplier/blob/main/Image/wave/wave1.png" width="800" height="350" alt="Architecture">
+  <img src="https://github.com/RexJian/Float_Point_Multiplier/blob/main/Image/Wave/Wave1.png" width="1300" height="200" alt="Architecture">
 </p> 
 
   
